@@ -2,7 +2,6 @@ body {
     margin: 0;
 }
 
-
 /* Disable arrows of the number input for Chrome, Safari, Edge, Opera*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
