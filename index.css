@@ -16,7 +16,6 @@ input::-webkit-inner-spin-button {
 input[type=number]{
     -moz-appearance: textfield;
 }
-
 .header-container {
     background-color: #6943FF;
     padding: 5em 0;
@@ -27,13 +26,11 @@ input[type=number]{
     align-items: center;
     transition: 0.3s;
 }
-
 .result-container {
     margin: -4em 0 0;
     display: flex;
     justify-content: space-around;
 }
-
 .conversion-box {
     padding: 2em;
     background-color: white;
@@ -43,14 +40,12 @@ input[type=number]{
     background-color: #273549;
     transition: 0.3s;
 }
-
 .h1-styling {
     margin: 0;
     font-size: 3em;
     font-weight: 900;
     color: white;
 }
-
 #conversion-number {
     margin: 1em 0;
     text-align: center;
@@ -64,7 +59,6 @@ input[type=number]{
     border-radius: 0.2em;
     transition: 0.3s;
 }
-
 #convert-btn {
     font-family: inherit;
     font-weight: bold;
@@ -75,20 +69,16 @@ input[type=number]{
     cursor: pointer;
     transition: 0.3s;
 }
-
 #convert-btn:hover {
     background-color: rgb(235, 235, 235);
 }
-
 .h2-styling {
     margin: 0;
     color: #CCC1FF;
 }
-
 hr {
     border: 1px solid #B295FF;
 }
-
 p {
     color: white;
 }
@@ -118,7 +108,6 @@ p {
         padding: 1em 2em;
     }
 }
-
 @media screen and (max-width: 1000px) {
     .header-container {
         height: 20%;
