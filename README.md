@@ -27,13 +27,12 @@
 - Live Site URL: [Link](https://boisterous-licorice-ae66c1.netlify.app)
 
 ### Demo
-(⌛ please wait for complete loading if not shown yet)
 ![demo gif](./demo.gif)
 
 ### Screenshot
 
 #### Desktop
-![desktop screenshot](./Images/screenshot-desktop.png)
+![desktop screenshot](./screenshot-desktop.png)
 
 #### Mobile
 ![mobile screenshot](./screenshot-mobile.png)
