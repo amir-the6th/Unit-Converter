@@ -1,9 +1,9 @@
 # Unit Conversion App
 
-- This is my solution to a solo project in Scrimba [JavaScript](https://scrimba.com/learn/learnjavascript) course](https://scrimba.com/learn/learnjavascript).
+- This is my solution to a solo project in Scrimba [JavaScript course](https://scrimba.com/learn/learnjavascript).
 - This app offers a simple solution to the problem of converting length, volume, and mass units from metric to imperial or vice versa.
 - Just type the number you want to convert, and the app will show all of the conversions at once. 
--I built this project from scratch and added more functionalities than what was asked such as responsiveness and different UI for desktop and mobile. 
+- I built this project from scratch and added more functionalities than what was asked such as responsiveness and different UI for desktop and mobile. 
 - Hope you like it! 🙌🏼
 
 ## Table of contents
@@ -24,7 +24,7 @@
 ### Links
 
 - Solution URL: [Link](https://github.com/amir-the6th/Unit-Converter)
-- Live Site URL: [Link](https://dapper-baklava-a01ca1.netlify.app)
+- Live Site URL: [Link](https://boisterous-licorice-ae66c1.netlify.app)
 
 ### Demo
 (⌛ please wait for complete loading if not shown yet)
