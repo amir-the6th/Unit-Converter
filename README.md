@@ -28,7 +28,7 @@
 
 ### Demo
 (⌛ please wait for complete loading if not shown yet)
-![demo gif](./Images/demo.gif)
+![demo gif](./demo.gif)
 
 ### Screenshot
 
@@ -36,7 +36,7 @@
 ![desktop screenshot](./Images/screenshot-desktop.png)
 
 #### Mobile
-
+![mobile screenshot](./screenshot-mobile.png)
 
 
 ## My process
