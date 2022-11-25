@@ -93,7 +93,7 @@ p {
 @media screen and (max-width: 1280px) {
     .conversion-box{
         width: 90%;
-        margin: 1em 0;
+        margin: 1em 1em;
         border-radius: 0.2em;
     }
     .result-container {
