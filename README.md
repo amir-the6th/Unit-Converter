@@ -1,21 +1,68 @@
-# cz9aPNSr
+# Unit Conversion App
 
-Quick start:
+This is my solution to a solo project in Scrimba [JavaScript](https://scrimba.com/learn/learnjavascript) course](https://scrimba.com/learn/learnjavascript). I built this project from scratch and added more functionalities than what was asked such as responsiveness and different UI for desktop and mobile. Hope you like it! 🙌🏼
 
-```
-$ npm install
-$ npm start
-````
+## Table of contents
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+- [Overview](#overview)
+  - [Links](#links)
+  - [Demo](#demo)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Overview
 
-Happy Coding!
+### Links
+
+- Solution URL: [Link](https://github.com/amir-the6th/Unit-Converter)
+- Live Site URL: [Link](https://dapper-baklava-a01ca1.netlify.app)
+
+### Demo
+(⌛ please wait for complete loading if not shown yet)
+![demo gif](./Images/demo.gif)
+
+### Screenshot
+
+#### Desktop
+![desktop screenshot](./Images/screenshot-desktop.png)
+
+#### Mobile
+
+
+
+## My process
+
+### Built with
+
+- HTML5 markup
+- Pure CSS
+- Vanilla JavaScript
+
+### What I learned
+
+The only difficult part of this challenge was adding responsiveness. 
+
+I struggled to set the width of the columns to 100% on tablets and mobiles. 
+
+During learning how to fix this, I learned about these definitions:
+- `flex-grow`
+- `flex-shrink`
+- `flex-basis`
+- `width: max-content`
+
+Overall, I enjoyed my time working on this project. CSS can become quite challenging, but when learned the right way, any challenge can be tackled easily.
+
+## Author
+
+- Website - [Amir Sabagh](https://arsenicolos.com)
+- GitHub - [@amir-the6th](https://github.com/amir-the6th)
+- LinkedIn - [Amir Sabagh](https://linkedin.com/in/arsenicolos)
+
+## Acknowledgments
+
+I want to give a shout-out to the [Scrimba](https://scrimba.com) CEO and professor, Per Harald Borgen([@perborgen](https://github.com/perborgen)). I recently finished the [HTML and CSS](https://scrimba.com/learn/htmlandcss) course on Scrimba and am currently doing the follow-up course, [Learn JavaScript for Free](https://scrimba.com/learn/learnjavascript).
