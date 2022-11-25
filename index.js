@@ -23,24 +23,32 @@ const massEl = document.getElementById("mass-result");
 const convertBtn = document.getElementById("convert-btn");
 
 convertBtn.addEventListener("click", () => {
-    conversionValue = conversionEl.value;
-    runConversion(); 
-});
+    if(conversionEl.value) {
+        conversionValue = conversionEl.value;
+        runConversion(); 
+    } else wipeConversion();
+    });
 
 function runConversion() {
     calculateLength();
     calculateVolume();
     calculateMass();
 
-    lengthEl.textContent = `
-        ${conversionValue} meters = ${feet} feet | ${conversionValue} feet = ${meters} meters
+    lengthEl.innerHTML = `
+        ${conversionValue} meters = ${feet} feet <br/><hr/> ${conversionValue} feet = ${meters} meters
     `;
-    volumeEl.textContent = `
-        ${conversionValue} litres = ${galoons} galoons | ${conversionValue} galoons = ${litres} litres
+    volumeEl.innerHTML = `
+        ${conversionValue} litres = ${galoons} galoons <br/><hr/> ${conversionValue} galoons = ${litres} litres
     `;
-    massEl.textContent = `
-        ${conversionValue} kilos = ${pounds} pounds | ${conversionValue} pounds = ${kilos} kilos
+    massEl.innerHTML = `
+        ${conversionValue} kilos = ${pounds} pounds <br/><hr/> ${conversionValue} pounds = ${kilos} kilos
     `;
+}
+
+function wipeConversion() {
+    lengthEl.textContent = "";
+    volumeEl.textContent = "";
+    massEl.textContent = ""; 
 }
 
 function calculateLength() {
