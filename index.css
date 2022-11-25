@@ -32,6 +32,10 @@ input[type=number]{
     justify-content: space-around;
 }
 .conversion-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 13em;
     padding: 2em;
     background-color: white;
     border-radius: 0.2em;
@@ -91,10 +95,6 @@ p {
         width: 90%;
         margin: 1em 0;
         border-radius: 0.2em;
-        height: 13em;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
     .result-container {
         flex-direction:column;

@@ -35,13 +35,13 @@ function runConversion() {
     calculateMass();
 
     lengthEl.innerHTML = `
-        ${conversionValue} meters = ${feet} feet <br/><hr/> ${conversionValue} feet = ${meters} meters
+        ${conversionValue} meters = ${feet} feet <br/><br/><hr/><br/> ${conversionValue} feet = ${meters} meters
     `;
     volumeEl.innerHTML = `
-        ${conversionValue} litres = ${galoons} galoons <br/><hr/> ${conversionValue} galoons = ${litres} litres
+        ${conversionValue} litres = ${galoons} galoons <br/><br/><hr/><br/> ${conversionValue} galoons = ${litres} litres
     `;
     massEl.innerHTML = `
-        ${conversionValue} kilos = ${pounds} pounds <br/><hr/> ${conversionValue} pounds = ${kilos} kilos
+        ${conversionValue} kilos = ${pounds} pounds <br/><br/><hr/><br/> ${conversionValue} pounds = ${kilos} kilos
     `;
 }
 
