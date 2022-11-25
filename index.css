@@ -61,8 +61,9 @@ input[type=number]{
 }
 #convert-btn {
     font-family: inherit;
+    font-size: 1.2em;
     font-weight: bold;
-    padding: 1em 3em;
+    padding: 1em 2.2em;
     background-color: white;
     border: 1px solid #B295FF;
     border-radius: 0.2em;
@@ -73,6 +74,7 @@ input[type=number]{
     background-color: rgb(235, 235, 235);
 }
 .h2-styling {
+    font-size: 1.7em;
     margin: 0;
     color: #CCC1FF;
 }
@@ -80,6 +82,7 @@ hr {
     border: 1px solid #B295FF;
 }
 p {
+    font-size: 1.2em;
     color: white;
 }
 
@@ -88,6 +91,10 @@ p {
         width: 90%;
         margin: 1em 0;
         border-radius: 0.2em;
+        height: 13em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .result-container {
         flex-direction:column;
@@ -97,7 +104,7 @@ p {
     .header-container {
         height: 20%;
     }
-    .h1-styling {
+    /* .h1-styling {
         font-size: 2em;
     }
     #conversion-number {
@@ -106,7 +113,7 @@ p {
     }
     #convert-btn {
         padding: 1em 2em;
-    }
+    } */
 }
 @media screen and (max-width: 1000px) {
     .header-container {
